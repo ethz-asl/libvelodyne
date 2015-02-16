@@ -8,7 +8,7 @@ remake_project(
   RELEASE beta
   SUMMARY "A C++ based Velodyne HDL-64E S2 and HDL-32E interfacing library."
   AUTHOR "Jerome Maye"
-  CONTACT "jerome.maye@mavt.ethz.ch"
+  CONTACT "ralf.kaestner@gmail.com"
   HOME "https://github.com/jmaye/libvelodyne"
   LICENSE "GNU Lesser General Public License (LGPL)"
   PREFIX velodyne-
@@ -59,7 +59,7 @@ remake_pack_deb(
 remake_distribute_deb(
   DISTRIBUTION lucid
   SECTION libs
-  UPLOAD ppa:jmaye/ethz
+  UPLOAD ppa:kralf/asl
   DEPENDS remake doxygen libqt4-opengl-dev libftgl-dev pkg-config
   PASS CMAKE_BUILD_TYPE LIBVELODYNE_GIT_REVISION
 )
@@ -67,7 +67,7 @@ remake_distribute_deb(
 remake_distribute_deb(
   DISTRIBUTION precise
   SECTION libs
-  UPLOAD ppa:jmaye/ethz
+  UPLOAD ppa:kralf/asl
   DEPENDS remake doxygen libqt4-opengl-dev libftgl-dev pkg-config
   PASS CMAKE_BUILD_TYPE LIBVELODYNE_GIT_REVISION
 )
@@ -75,7 +75,7 @@ remake_distribute_deb(
 remake_distribute_deb(
   DISTRIBUTION trusty
   SECTION libs
-  UPLOAD ppa:jmaye/ethz
+  UPLOAD ppa:kralf/asl
   DEPENDS remake doxygen libqt4-opengl-dev libftgl-dev pkg-config
   PASS CMAKE_BUILD_TYPE LIBVELODYNE_GIT_REVISION
 )
