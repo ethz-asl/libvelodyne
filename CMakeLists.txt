@@ -9,7 +9,7 @@ remake_project(
   SUMMARY "A C++ based Velodyne HDL-64E S2 and HDL-32E interfacing library."
   AUTHOR "Jerome Maye"
   CONTACT "ralf.kaestner@gmail.com"
-  HOME "https://github.com/jmaye/libvelodyne"
+  HOME "https://github.com/ethz-asl/libvelodyne"
   LICENSE "GNU Lesser General Public License (LGPL)"
   PREFIX velodyne-
   INSTALL /usr/
@@ -18,7 +18,6 @@ remake_project(
 
 remake_doc(
   html
-  latex
   vendor
 )
 

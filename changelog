@@ -1,3 +1,10 @@
+libvelodyne (1.0-115) precise; urgency=low
+
+  * Changed project home
+  * Removed latex documentation
+
+ -- Ralf Kaestner <ralf.kaestner@gmail.com>  Tue, 17 Jan 2015 10:09:00 +0100
+
 libvelodyne (1.0-114) precise; urgency=low
 
   * Switched maintainer and PPA
